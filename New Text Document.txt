@@ -1,0 +1,45 @@
+Part 1: Laravel Installation:-
+=================================
+
+
+first opn git bash 
+than type _> composer create-project laravel/laravel DemoApp  
+than hit enter 
+and with a few minite it successfully download laravel tamplate 
+then open with vs code and open tarminal 
+and type _> php artisan serve
+then is will run on the localhost 8000 port
+
+
+
+Part 2: Laravel Folder Structure:-
+======================================
+
+
+1 app: The app folder contains the application's core code, including the models, controllers, service providers, and other classes that define the functionality of the application.
+
+2 bootstrap: The bootstrap folder contains the files that bootstrap the application and prepare it for use, including the app.php file that loads the application's service providers.
+
+3 config: The config folder contains all the application's configuration files, including database configuration, cache configuration, and other settings.
+
+4 database: The database folder contains all the database-related files, including migrations, seeders, and model factories.
+
+5 public: The public folder is the web server's document root and contains the application's publicly accessible files, such as the index.php file that serves as the front controller.
+
+6 resources: The resources folder contains all the assets used by the application, including views, translations, and front-end assets such as JavaScript and CSS files.
+
+7 routes: The routes folder contains all the application's route definitions, including API routes, web routes, and other types of routes.
+
+8 storage: The storage folder contains all the files that the application needs to store, such as cached files, logs, and uploaded files.
+
+9 tests: The tests folder contains all the application's test files, including unit tests, feature tests, and other types of tests.
+
+10 vendor: The vendor folder contains all the third-party dependencies that the application uses, such as Laravel itself, as well as any other packages that the application has installed via Composer.
+
+
+
+
+
+
+
+ 
